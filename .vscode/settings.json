@@ -1,0 +1,10 @@
+{
+    "codeium.enableSearch": true,
+    "codium.javascriptTestsConfig-1RunWorkingDirectory": "/Users/melle/dev/nextjs-boilerplate-subby/",
+    "workbench.tree.indent": 15,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#768b99"
+    },
+    "vscode-bard.cookie": "awjkF3jy-yLsVzV5SidkH-66eINdswF4eC4-NttcxxBLYsqCB2caF1hggZ1bNm1Iot29wg."
+}
