@@ -7,7 +7,7 @@ interface RecorderProps {
   onRecordingChange: (value: boolean) => void; // the function to change the recording state in the console
 }
 
-function Recorder({ language, onRecordingChange }: RecorderProps) {
+const Recorder: React.FC<RecorderProps> = ({ language, onRecordingChange }) => {
   const microphoneRef = useRef<MediaRecorder | null>(null); // the MediaRecorder object that captures the audio from the user's microphone
   const clientRef = useRef<Client>(new Client({ apiKey: process.env.DEEPGRAM_API_KEY })); // the Deepgram client that communicates with the Deepgram API
   const liveTranscriptionRef = useRef<LiveTranscription | null>(null); // the live transcription object that sends and receives data via a WebSocket
@@ -100,6 +100,6 @@ function Recorder({ language, onRecordingChange }: RecorderProps) {
       {/* remove the button element from the Recorder component */}
     </div>
   );
-}
+};
 
 export default Recorder;

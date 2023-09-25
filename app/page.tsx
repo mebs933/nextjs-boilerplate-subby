@@ -1,3 +1,6 @@
+//page.tsx
+
+'use client'
 import React, { ReactElement } from 'react';
 import Head from 'next/head';
 import DynamicUIConsole from './components/DynamicUIConsole';

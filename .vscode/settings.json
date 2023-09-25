@@ -6,5 +6,18 @@
     "workbench.colorCustomizations": {
         "tree.indentGuidesStroke": "#768b99"
     },
-    "vscode-bard.cookie": "awjkF3jy-yLsVzV5SidkH-66eINdswF4eC4-NttcxxBLYsqCB2caF1hggZ1bNm1Iot29wg."
+    "testRunner.config": [
+        {
+            "directory": "app",
+            "language": "typescript",
+            "testingFramework": "vitest",
+            "command": "echo \"Configure your test command here. The variable $TEST_FILE_NAME will have the file name of the test that should be executed.\""
+        },
+        {
+            "directory": "/Users/melle/dev",
+            "language": "typescript",
+            "testingFramework": "vitest",
+            "command": "echo \"Configure your test command here. The variable $TEST_FILE_NAME will have the file name of the test that should be executed.\""
+        }
+    ]
 }
